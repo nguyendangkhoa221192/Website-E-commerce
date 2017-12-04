@@ -1,5 +1,8 @@
 {
   "name": "basicProject",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.5.5"
+  }
 }
