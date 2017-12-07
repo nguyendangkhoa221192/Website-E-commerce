@@ -5,8 +5,14 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: mysql2
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: e_commerce_site
+  username: root
+  password: 
+  host: 127.0.0.1
+  port: 3306
+  encoding: utf8
   timeout: 10000
 
 development:
