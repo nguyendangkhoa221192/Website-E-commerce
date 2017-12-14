@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails_12factor', group: :production
 gem 'mysql2'
+
+# Gem jquery for rails
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
