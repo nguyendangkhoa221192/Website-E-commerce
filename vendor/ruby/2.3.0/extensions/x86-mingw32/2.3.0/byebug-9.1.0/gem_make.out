@@ -1,0 +1,20 @@
+current directory: E:/khoand/work_out_time/Website-E-commerce/vendor/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+C:/RailsInstaller/Ruby2.3.0/bin/ruby.exe -r ./siteconf20171214-13560-yktysr.rb extconf.rb
+creating Makefile
+
+current directory: E:/khoand/work_out_time/Website-E-commerce/vendor/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: E:/khoand/work_out_time/Website-E-commerce/vendor/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+generating byebug-i386-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: E:/khoand/work_out_time/Website-E-commerce/vendor/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20171214-13560-a88d1u/byebug

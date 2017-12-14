@@ -14,6 +14,12 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 # Rails.application.config.assets.precompile += %w(reset.css)
 
+# %w(user login).each do |controller|
+#   Rails.application.config.assets.precompile += ["#{controller}.js"]
+# end
+
+# Rails.application.config.assets.precompile += [/.*javascripts*\.js/,/.*stylesheets*\.css/]
+
 Rails.application.config.assets.precompile << Proc.new { |path|
 if path =~ /\.(css|js)\z/
   full_path = Rails.application.assets.resolve(path).to_s

@@ -13,4 +13,4 @@
 //= require rails-ujs
 //= require turbolinks
 //= require jquery
-//= require "commonjs/layouts.js"
+//= require_tree ./commonjs
