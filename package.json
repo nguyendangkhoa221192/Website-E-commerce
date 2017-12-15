@@ -1,9 +1,7 @@
 {
   "name": "e_commerce",
   "private": true,
-  "dependencies": {
-    "jquery": "^3.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@angular/cli": "^1.5.5"
   }

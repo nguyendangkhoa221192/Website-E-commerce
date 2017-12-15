@@ -8175,3 +8175,7 @@ screen and (max-height: 300px) {
     right: 0;
     padding-top: 0
 }
+
+.slide_banner_wrapper {
+    max-height: 180px;
+}
